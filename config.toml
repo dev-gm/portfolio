@@ -1,0 +1,26 @@
+# Portfolio - Gavin Mason
+base_url = "https://gavinmason.dev"
+title = "Gavin Mason"
+description = "Computer Engineering @ Virginia Tech"
+compile_sass = true
+build_search_index = false
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
+# Personal info
+name = "Gavin Mason"
+tagline = "Computer Engineering @ Virginia Tech"
+email = "gavin.mason@vt.edu"
+phone = "(301)-664-3907"
+
+# Social links
+linkedin = "https://linkedin.com/in/gavinm07"
+codeberg = "https://codeberg.org/dev-gm"
+github = ""  # Add if you have one
+
+# Accent color
+accent_color = "#50c878"  # Green
