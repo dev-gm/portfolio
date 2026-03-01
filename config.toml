@@ -7,8 +7,7 @@ build_search_index = false
 minify_html = true
 
 [markdown]
-highlight_code = true
-highlight_theme = "base16-ocean-dark"
+highlighting = true
 
 [extra]
 # Personal info
