@@ -15,4 +15,4 @@ screenshots = [
 tech = ["Expo", "React Native", "TypeScript", "FastAPI", "PostgreSQL", "Docker", "OpenAI GPT-5", "Zustand", "AES-256-GCM"]
 +++
 
-Trauma-informed Expo + React Native app built at HackViolet VT that combines AI intake, doctor matching, encrypted care plans, and anonymous review loops without leaking sensitive data; honored with an award for notable projects.
+Endometriosis treatment app that matches patients with trusted providers, creates a care plan, and provides symptom and period tracking. Received an award for notable projects.
