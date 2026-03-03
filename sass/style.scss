@@ -462,23 +462,30 @@ code, .mono {
 }
 
 .hackathon-item {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
     padding: 1rem 1.25rem;
     background-color: $bg-secondary;
     border: 1px solid $border-color;
     border-radius: 8px;
+    flex-wrap: nowrap;
+    position: relative;
+    padding-right: 4.5rem;
 }
 
 .hackathon-date {
     font-family: $font-mono;
     font-size: 0.8125rem;
     color: $text-muted;
+    min-width: 90px;
+    flex-shrink: 0;
 }
 
 .hackathon-content {
+    flex: 1;
     min-width: 0;
+    padding-right: 1rem;
 }
 
 .hackathon-name {
@@ -511,6 +518,23 @@ code, .mono {
     border-radius: 4px;
     white-space: nowrap;
     flex-shrink: 0;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+}
+
+@media (max-width: 600px) {
+    .hackathon-item {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding-right: 1.25rem;
+    }
+
+    .hackathon-award {
+        position: static;
+        margin-left: 0;
+    }
 }
 
 // Contact Section (footer)
