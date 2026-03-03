@@ -3,8 +3,8 @@
 {% block content %}
 <main class="container">
     <header class="intro" id="home">
-        <h1 class="intro-name">Gavin Mason</h1>
-        <p class="intro-tagline">Computer Engineering @ Virginia Tech</p>
+        <h1 class="intro-name">{{ config.extra.name }}</h1>
+        <p class="intro-tagline">{{ config.extra.tagline }}</p>
         <nav class="intro-links">
             <a href="{{ config.extra.linkedin }}" target="_blank" rel="noopener">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
@@ -138,14 +138,5 @@
         </div>
     </section>
 
-    <footer class="contact" id="contact">
-        <div class="contact-links">
-            <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>
-            <span class="contact-sep">/</span>
-            <a href="{{ config.extra.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
-            <span class="contact-sep">/</span>
-            <a href="{{ config.extra.codeberg }}" target="_blank" rel="noopener">Codeberg</a>
-        </div>
-    </footer>
 </main>
 {% endblock %}

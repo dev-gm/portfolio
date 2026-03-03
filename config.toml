@@ -1,7 +1,7 @@
 # Portfolio - Gavin Mason
 base_url = "https://gavinmason.dev"
 title = "Gavin Mason"
-description = "Computer Engineering @ Virginia Tech"
+description = "Mathematics & Creative Writing @ Virginia Tech"
 compile_sass = true
 build_search_index = false
 minify_html = true
@@ -12,9 +12,8 @@ theme = "monokai"
 [extra]
 # Personal info
 name = "Gavin Mason"
-tagline = "Computer Engineering @ Virginia Tech"
-email = "gavin.mason@vt.edu"
-phone = "(301)-664-3907"
+tagline = "Mathematics @ Virginia Tech"
+email = "resume@gavinm.us"
 
 # Social links
 linkedin = "https://linkedin.com/in/gavinm07"

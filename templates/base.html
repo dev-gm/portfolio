@@ -7,16 +7,18 @@
     <meta name="description" content="{{ config.description }}">
     
     <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ config.title }}">
     <meta property="og:title" content="{{ config.title }}">
     <meta property="og:description" content="{{ config.description }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ config.base_url }}">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
+    <link rel="canonical" href="{{ config.base_url }}/">
+    {% if config.extra.accent_color %}<meta name="theme-color" content="{{ config.extra.accent_color }}">{% endif %}
+
+    <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicon.svg') }}">
+    <link rel="alternate icon" href="{{ get_url(path='favicon.svg') }}">
+
     <!-- Styles -->
     <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 </head>

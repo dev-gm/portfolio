@@ -7,7 +7,7 @@ repo = "dwl/dwl-patches"
 url = "https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/tab"
 source = "https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/tab"
 screenshot = "/images/dwl-tabs.png"
-tech = ["C", "Wayland", "wlroots"]
+tech = ["C", "Wayland", "wlroots", "fcft", "pixman"]
 impact = "Merged into main repository, adopted in community builds"
 +++
 
