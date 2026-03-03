@@ -1,5 +1,5 @@
 +++
-title = "High School Schedule App"
+title = "AHS Schedule"
 weight = 2
 
 [extra]
@@ -10,4 +10,4 @@ screenshots = ["/images/ahs-schedule-1.png", "/images/ahs-schedule-2.png", "/ima
 tech = ["Flutter", "Dart"]
 +++
 
-Real-time class schedule app for my high school with countdown timers to lunch and next class. Scraped an inconsistently formatted Google Doc for daily announcements and teacher absences.
+Real-time class schedule app for my old high school with countdown timers to lunch and next class. Scraped an inconsistently formatted Google Doc for daily announcements and teacher absences.
