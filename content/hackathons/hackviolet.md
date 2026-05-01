@@ -8,4 +8,4 @@ location = "Virginia Tech"
 award = "Award for notable projects"
 +++
 
-Endometriosis tracking and provider matching app for VT's women-in-tech hackathon
+Endometriosis tracking and provider matching app for VT's premier female-empowerment hackathon

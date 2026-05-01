@@ -15,4 +15,4 @@ screenshots = [
 tech = ["Expo", "React Native", "TypeScript", "FastAPI", "PostgreSQL", "Docker", "OpenAI GPT-5", "Zustand", "AES-256-GCM"]
 +++
 
-Endometriosis treatment app that matches patients with trusted providers, creates a care plan, and provides symptom and period tracking. Received an award for notable projects.
+Endometriosis treatment app that matches patients with trusted providers, creates a care plan, and provides symptom and period tracking. Received an award for notable projects at VT's female-empowerment hackathon.
