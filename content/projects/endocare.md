@@ -12,7 +12,7 @@ screenshots = [
   "/images/4_chat_4_doctor_profile.png",
   "/images/5_plan_1.png"
 ]
-tech = ["React Native", "TypeScript", "Expo", "FastAPI", "PostgreSQL", "Docker", "OpenAI GPT-5", "Zustand", "AES-256-GCM"]
+tech = ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Docker"]
 +++
 
 Endometriosis treatment app that matches patients with trusted providers, creates a care plan, and provides symptom and period tracking. Received an award for notable projects at VT's female-empowerment hackathon.
