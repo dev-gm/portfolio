@@ -29,7 +29,10 @@
             {% for page in opensource.pages %}
             <article class="contribution-card">
                 {% if page.extra.screenshot %}
-                <img src="{{ page.extra.screenshot }}" alt="{{ page.title }}" class="project-screenshot" loading="lazy">
+                <picture>
+                    <source srcset="{{ page.extra.screenshot | replace(from='.png', to='.avif') }}" type="image/avif">
+                    <img src="{{ page.extra.screenshot }}" alt="{{ page.title }}" class="project-screenshot">
+                </picture>
                 {% endif %}
                 <div class="project-content">
                     {% if page.extra.repo %}
@@ -72,7 +75,10 @@
                 {% if page.extra.screenshots %}
                 <div class="project-screenshots-row">
                     {% for img in page.extra.screenshots %}
-                    <img src="{{ img }}" alt="{{ page.title }}" loading="lazy">
+                    <picture>
+                        <source srcset="{{ img | replace(from='.png', to='.avif') }}" type="image/avif">
+                        <img src="{{ img }}" alt="{{ page.title }} screenshot">
+                    </picture>
                     {% endfor %}
                 </div>
                 {% endif %}
