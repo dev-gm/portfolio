@@ -13,12 +13,12 @@ theme = "monokai"
 # Personal info
 name = "Gavin Mason"
 tagline = "Mathematics @ UMass Amherst"
-email = "resume@gavinm.us"
+email = "self@gavinm.us"
 
 # Social links
 linkedin = "https://linkedin.com/in/gavinm07"
-codeberg = "https://codeberg.org/dev-gm"
-github = ""  # Add if you have one
+github = "https://github.com/dev-gm"
+codeberg = ""  # not used anymore
 
 # Accent color
 accent_color = "#50c878"  # Green

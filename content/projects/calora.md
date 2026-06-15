@@ -3,10 +3,8 @@ title = "Calora"
 weight = 1
 
 [extra]
-url = "https://codeberg.org/dev-gm/calora-app"
-website = "https://calora.me"
-source = "https://codeberg.org/dev-gm/calora-app"
-server_source = "https://codeberg.org/dev-gm/calora-server"
+url = "https://github.com/dev-gm/calora"
+source = "https://github.com/dev-gm/calora"
 screenshots = ["/images/calora-1.png", "/images/calora-3.png", "/images/calora-5.png", "/images/calora-7.png"]
 tech = ["React Native", "TypeScript", "Go", "PostgreSQL", "WASM", "Rust", "Lisp", "Gemini 3.5 Flash", "Docker"]
 +++

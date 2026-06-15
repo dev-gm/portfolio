@@ -3,8 +3,8 @@ title = "EndoCare"
 weight = 1
 
 [extra]
-url = "https://codeberg.org/dev-gm/endocare"
-source = "https://codeberg.org/dev-gm/endocare"
+url = "https://github.com/dev-gm/endocare"
+source = "https://github.com/dev-gm/endocare"
 screenshots = [
   "/images/1_name.png",
   "/images/4_chat_1_reassurance.png",
